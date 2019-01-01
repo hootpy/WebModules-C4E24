@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Dashboard</title>
+    <style>
+      body {
+          background-color: lemonchiffon;
+      }
+      h2 {
+        color: aqua;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+      }
+      .name {
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+      }
+      .age {
+        color: grey;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+      }
+            
+    </style>
+</head>
+<body>
+        <h2>{{user_url}} Profile</h2>
+        <div class="name">
+          <h1>{{username["name"]}}</h1>
+          <p class="age">{{username["age"]}}</p>
+        </div>
+</body>
+</html>

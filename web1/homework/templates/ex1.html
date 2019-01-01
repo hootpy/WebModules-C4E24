@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI Caculator</title>
+    <style>
+        .heading {        
+        text-align: center;
+        vertical-align: middle;
+        }
+        .bmi {
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Welcome to BMI Caculator</h1>
+    <div>
+    {% if bmi < 16 %}
+        <p class="bmi">Your BMI index is <font color="#767676">{{bmi}}</font> and you are severely underweight</p>
+    {% elif bmi >=16 and bmi < 18.5 %}
+        <p class="bmi">Your BMI index is <font color="#767676">{{bmi}}</font> and you are underweight</p>
+    {% elif bmi >= 18.5 and bmi < 25 %}
+        <p class="bmi">Your BMI index is <font color="#767676">{{bmi}}</font> and you are normal</p>
+    {% elif bmi >= 25 and bmi < 30 %}
+        <p class="bmi">Your BMI index is <font color="#767676">{{bmi}}</font> and you are overweight</p>
+    {% else %}
+        <p class="bmi">Your BMI index is <font color="#767676">{{bmi}}</font> and you are obese</p>
+    {% endif %}    
+    </div>
+</body>
+</html>
