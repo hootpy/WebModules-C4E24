@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Items</title>
+</head>
+<body>
+    {% for food in food_list %}
+    <div>
+        <h3>{{food['Name']}}</h3>
+        <a href="/food_detail/{{loop.index0}}" target=#><img src="{{food['image']}}" alt="{{food['Name']}}"></a>
+        <a href="{{food['link']}}" target=#><button>Đặt món</button></a>
+    </div>  
+    {% endfor %}
+</body>
+</html>
