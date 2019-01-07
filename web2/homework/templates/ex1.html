@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <H1>Dang ki tai khoan</H1>
+    <form action="/register/success" method="POST">
+        <p>Ten day du:<br><input type="text" name="name" required></p>
+        <p>Email:<br><input type="email" name="email" required></p> 
+        <p>Ten dang nhap:<br><input type="text" name='username' required></p>
+        <p>Mat khau<br><input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Mat khau phai tu 8 ki tu, co it nhat 1 ki tu hoa, 1 ki tu thuong va 1 ky tu dac biet" required></p>
+        <p><input type="submit" value="submit"></p>
+    </form>
+</body>
+</html>
