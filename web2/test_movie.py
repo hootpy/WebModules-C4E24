@@ -11,7 +11,7 @@ class Movie(Document):
     link = StringField()
     rate = IntField()
 
-movie_list = Movie.objects(rate__gte=7,title__icontains="strange") #lazy loading
+movie_list = Movie.objects() #lazy loading
 for m in movie_list:
     print(m.title , m.rate)
 # #create data
