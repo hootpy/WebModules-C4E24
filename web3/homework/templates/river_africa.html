@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Africa</title>
+</head>
+<body>
+    {% for river in river_list %}
+    <div>
+        <h3>{{river.name}}</h3>
+        <h3>{{river.continent}}</h3>
+        <h3>{{river.length}}</h3>
+    </div>
+    <hr>
+    {% endfor %}
+</body>
+</html>
