@@ -1,0 +1,30 @@
+*{
+    font-family: 'Thasadith', sans-serif;
+}
+html,body{
+    height: 100%
+}
+#root {
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    float: right;
+    background-color: aqua;
+    cursor: pointer;
+}
+.form_label{
+    min-width: 66px;
+    display: inline-block
+}
+.mb_2{
+    margin-bottom: 2%
+}
+input{
+    border-radius: 3px;
+    border: teal solid 1px;
+    font-size: 20px
+}
