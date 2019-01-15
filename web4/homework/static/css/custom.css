@@ -1,0 +1,171 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.hgrey {
+    background-color: #707070 !important;
+}
+.hgrey-text {
+    color: #707070 !important;
+}
+.divider {
+    margin: 8px 0 !important;
+}
+.collapsible-header {
+    padding-left: 32px !important;
+}
+.collapsible-body ul li a {
+    padding-left: 48px !important;
+}
+@media only screen and (min-width: 993px) {
+    .admin-content {
+        padding-left: 300px;
+    }
+}
+.admin-content {
+    padding-top: 32px;
+}
+#admin-nav {
+    box-shadow: none !important;
+    border-right: 1px solid rgba(0,0,0,0.14);
+}
+.admin-nav-logo {
+    margin: 36px 0;
+}
+.admin-nav-logo>a {
+    display: block;
+    height: 57px;
+}
+.admin-nav-logo>a>img {
+    height: 57px;
+}
+.admin-nav-search>a {
+    color: #777777;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+.admin-title {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 24px;
+}
+.admin-card-title {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.checkbox-child {
+    padding-left: 24px;
+}
+.admin-tabs-content {
+    padding: 12px;
+}
+.admin-post-action>.btn {
+    margin-top: 12px;
+}
+.admin-portal {
+    padding-top: 0;
+}
+.admin-header-title {
+    padding: 4rem 0 4rem 24px;
+}
+.admin-header-title span {
+    color: #fff;
+    font-size: 3rem;
+}
+.admin-small-container {
+    padding: 12px;
+}
+.admin-portal-fastaction>.col {
+    padding: 12px;
+}
+.admin-portal-fastaction>.col>.btn-large {
+    width: 100%;
+}
+.admin-portal-item {
+    padding: 12px;
+    margin-top: 24px;
+}
+.RainbowBlue {
+    background: linear-gradient(314deg, #00f260, #0575e6);
+    background-size: 400% 400%;
+
+    -webkit-animation: RainbowBlue 30s ease infinite;
+    -moz-animation: RainbowBlue 30s ease infinite;
+    -o-animation: RainbowBlue 30s ease infinite;
+    animation: RainbowBlue 30s ease infinite;
+}
+@-webkit-keyframes RainbowBlue {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-moz-keyframes RainbowBlue {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-o-keyframes RainbowBlue {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes RainbowBlue {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+
+.Kyoto {
+    background: linear-gradient(314deg, #c21500, #ffc500);
+    background-size: 400% 400%;
+
+    -webkit-animation: RainbowBlue 30s ease infinite;
+    -moz-animation: RainbowBlue 30s ease infinite;
+    -o-animation: RainbowBlue 30s ease infinite;
+    animation: RainbowBlue 30s ease infinite;
+}
+@-webkit-keyframes RainbowBlue {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-moz-keyframes RainbowBlue {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-o-keyframes RainbowBlue {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes RainbowBlue {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+
+.gradient-radar {
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(33deg, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(33deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gradient-brady {
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(123deg, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(123deg, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gradient-sunset {
+    background: #ff7e5f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(256deg, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(256deg, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gradient-cosmicfusion {
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(73deg, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(73deg, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

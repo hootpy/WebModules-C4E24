@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito&amp;subset=vietnamese" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/materialize.min.css') }}"   media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}"  media="screen,projection"/>
+    <meta charset="UTF-8">
+    <title>Bike Rental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body class="grey lighten-3">
+
+<div class="card-panel" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); min-width: 25vw">
+	<div class="center-align">
+		<h2 style="height: 54px; width: auto;">Bike Rental</h2>
+	</div>
+	<form action="" method="post">
+		<div class="input-field">
+			<input id="model" type="text" class="validate" name='model' placeholder="e.g Honda" required>
+			<label for="model">Model</label>
+        </div>
+		<div class="input-field">
+			<input id="daily_fee" type="number" class="validate" name="daily_fee"  value="1000000" required>
+			<label for="daily_fee">Daily Fee</label>
+        </div>
+        <div class="input-field">
+			<input id="image" type="text" class="validate" name="image" placeholder="e.g https://hondaxemay.com.vn/san-pham/sh-mode-125cc/" required>
+			<label for="image">Image</label>
+        </div>
+        <div class="input-field">
+			<input id="year" type="number" name="year" placeholder="e.g 2013" required>
+			<label for="year">Year</label>
+        </div>
+		<div class="right-align">
+			<button class="btn waves-effect waves-light hgrey" type="submit" name="action">Submit
+				<i class="material-icons right">send</i>
+			</button>
+		</div>
+	</form>
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/materialize.min.js') }}"></script>
+
+
+</body>
+</html>
